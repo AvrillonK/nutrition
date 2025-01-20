@@ -1,0 +1,149 @@
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            padding: 10px;
+
+            width: 99%;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-content: space-between;
+            align-items: flex-start;
+        }
+
+        #checkbox-container {
+
+            padding: 20px;
+            border-radius: 8px;
+            width: 20%;
+            margin-bottom: 20px;
+        }
+        #form-container-container {
+
+            padding: 20px;
+            border-radius: 8px;
+
+            width: 25%;
+            margin-bottom: 20px;
+        }
+        #result-container-container{
+
+            padding: 20px;
+            border-radius: 8px;
+
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+        #form-container, #result-container {
+          display: flex;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            margin-bottom: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #calculatorForm,
+        #needsForm {
+            width: 100%;
+            max-width: 600px; /* Vous pouvez ajuster la largeur maximale selon vos besoins */
+            margin: 0 auto; /* Centre le formulaire horizontalement */
+        }
+
+        fieldset {
+          display: flex;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 15px;
+        flex-direction: column;
+        }
+
+        h1, h2 {
+            color: #4285f4;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .input-group input,
+        .input-group select {
+            flex: 1;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .input-group select {
+            margin-left: 8px;
+        }
+
+        button {
+            background-color: #4285f4;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1a73e8;
+        }
+
+        #resultats {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .positive {
+            color: red;
+        }
+
+        .negative {
+            color: blue;
+        }
+
+        #header, #footer {
+            background-color: #4285f4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+        #title{
+          color: #ffffff;
+          text-align: left;
+
+
+        }
+    </style>
